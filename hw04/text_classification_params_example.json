@@ -1,0 +1,19 @@
+{
+    "author_email": "koteyevlev@mail.com",
+    "count_vectorizer_params": 
+    {
+        "min_df": 2,
+        "ngram_range": [0, 1],
+        "max_df": 305
+    }, 
+    "tfidf_transformer_params": {
+        "norm": "l2" ,
+        "sublinear_tf": "True"
+    }, 
+    "logistic_regression_params": {
+        "C": 14.5,
+        "class_weight": "balanced",
+        "penalty": "l2",
+        "solver": "sag"
+    }
+}
