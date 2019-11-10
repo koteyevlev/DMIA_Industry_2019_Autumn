@@ -4,6 +4,8 @@ from sklearn.model_selection import cross_val_score
 import numpy as np
 import os
 import sys
+import warnings
+warnings.filterwarnings("ignore")
 import imp
 import signal
 import pandas
